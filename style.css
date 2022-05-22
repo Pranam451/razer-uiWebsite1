@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+  }
+  .nav-link {
+    color: #00e400;
+  }
+  a.nav-link:hover {
+    color: #00e400;
+    border-bottom: 3px solid #00e400;
+    background: #00e40024;
+  }
+  .viewmore {
+    color: black;
+    background: #00e500;
+    border-color: transparent;
+    font-family: sans-serif;
+    margin-top: 8%;
+    border-radius: 3px;
+  }
+  .viewmore:hover {
+    background: #0cff0c2e !important;
+    border: 1px solid #0ecf08;
+    cursor: pointer;
+  }
+  .carousel-caption{
+      top: 2%;
+  }
+  .card-body{
+    background: #222222;
+    
+  }
+  .card-col{
+      margin-bottom: 2%;
+  }
+  .card{
+      border: 0;
+      height: 100%;
+  }
+  img.card-img-top {
+    background: #111;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0ecf08; 
+  border-radius: 10px;
+}
+
+.buy-btn:hover{
+  background-color: #0ecf08;
+  color: white;
+  border: 0;
+}
+.community-btn:hover{
+  background-color: #0ecf08;
+  color: white;
+  border: 1px solid #00e400 ;
+}
+.buy-btn{
+  color: #00e400;
+  border: 0;
+}
+.community-btn{
+  color: #00e400;
+  border: 1px solid #00e400 ;
+}
+.green{
+  color: #00e400;
+}
